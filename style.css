@@ -171,6 +171,12 @@ h4 {
   box-shadow: 6px 6px 20px rgba(122, 122, 122, .2);
 }
 
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card img {
   width: 90px;
 }
@@ -210,4 +216,11 @@ h4 {
   height: 100%;
   background-color: white;
   left: 40%;
+}
+
+.percentage {
+  font-weight: bold;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
